@@ -13,6 +13,7 @@
 		60B0A15B1E754931005E5507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B0A1591E754931005E5507 /* Main.storyboard */; };
 		60B0A15D1E754931005E5507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B0A15C1E754931005E5507 /* Assets.xcassets */; };
 		60B0A1601E754931005E5507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B0A15E1E754931005E5507 /* LaunchScreen.storyboard */; };
+		661BB0F21E75578200F9CB59 /* view in Resources */ = {isa = PBXBuildFile; fileRef = 661BB0F11E75578200F9CB59 /* view */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		60B0A15C1E754931005E5507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60B0A15F1E754931005E5507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60B0A1611E754931005E5507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661BB0F11E75578200F9CB59 /* view */ = {isa = PBXFileReference; lastKnownFileType = folder; name = view; path = LTMetadataEXIF/view; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		60B0A1441E754931005E5507 = {
 			isa = PBXGroup;
 			children = (
+				661BB0F11E75578200F9CB59 /* view */,
 				60B0A14F1E754931005E5507 /* LTMetadataEXIF */,
 				60B0A14E1E754931005E5507 /* Products */,
 			);
@@ -140,6 +143,7 @@
 				60B0A1601E754931005E5507 /* LaunchScreen.storyboard in Resources */,
 				60B0A15D1E754931005E5507 /* Assets.xcassets in Resources */,
 				60B0A15B1E754931005E5507 /* Main.storyboard in Resources */,
+				661BB0F21E75578200F9CB59 /* view in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +311,7 @@
 				60B0A1661E754931005E5507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
